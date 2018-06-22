@@ -1,5 +1,65 @@
 {% extends 'home/base.html' %}
 {% load staticfiles %}
 {% block body %}
+    <div id="carousel-area">
+        <div id="carousel-slider" class="carousel slide" data-interval="3000">
 
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-slider" data-slide-to="0" class="active">
+                </li>
+                <li data-target="#carousel-slider" data-slide-to="1">
+                </li>
+                <li data-target="#carousel-slider" data-slide-to="2">
+                </li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image: url({% static 'img/slider/bg-1.jpg' %});">
+                    <div class="carousel-caption">
+                        <h2>
+Charming West Beautiful Villa
+</h2>
+                        <h3>
+<i class="fas fa-map-marker-alt"></i> Capital District, New York, US
+</h3>
+                        <div class="price-sl">
+                            $ 125.000
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url({% static 'img/slider/bg-2.jpg' %});">
+                    <div class="carousel-caption">
+                        <h2>
+House With Beautiful Scendery
+</h2>
+                        <h3>
+<i class="fas fa-map-marker-alt"></i> Seattle, Washington, US
+</h3>
+                        <div class="price-sl">
+                            $ 255.000
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url({% static 'img/slider/bg-3.jpg' %});">
+                    <div class="carousel-caption">
+                        <h2>
+Luxurious Huge Duplex
+</h2>
+                        <h3>
+<i class="fas fa-map-marker-alt"></i> Los Angeles, California, US
+</h3>
+                        <div class="price-sl">
+                            $ 350.000
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-slider" role="button" data-slide="prev">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            <a class="right carousel-control" href="#carousel-slider" role="button" data-slide="next">
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
 {% endblock %}
