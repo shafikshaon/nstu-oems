@@ -1153,10 +1153,10 @@ select > opation:focus {
 	box-shadow: none;
 	border: #eee solid 1px;
 }
-.property {
+.project {
 	background: #f5f5f5;
 }
-.property-main {
+.project-main {
 	position: relative;
 	margin-bottom: 30px;
 	box-shadow: 0 2px 0 0 #e3e4e7;
@@ -1165,10 +1165,10 @@ select > opation:focus {
 	transition: all 0.15s ease;
 	cursor: pointer;
 }
-.property-main:hover {
+.project-main:hover {
 	box-shadow: 0 0 5px 1px rgba(60, 144, 190, 0.13);
 }
-.property-wrap {
+.project-wrap {
 	background: #fff;
 	width: 100%;
 	padding: 8px;
@@ -1288,15 +1288,15 @@ select > opation:focus {
 .item-body .label-inner-list .label-default {
 	background: #d32f2f;
 }
-.item-body .property-title {
+.item-body .project-title {
 	margin: 0 0 2px;
 }
-.item-body .property-title a {
+.item-body .project-title a {
 	font-size: 14px;
 	color: #2d2d2d;
 	text-transform: uppercase;
 }
-.item-body .property-title a:hover {
+.item-body .project-title a:hover {
 	color: #4caf50;
 }
 .item-body .adderess {
@@ -1384,20 +1384,20 @@ select > opation:focus {
 	right: 10px;
 	bottom: 15px;
 }
-.property-highlights {
+.project-highlights {
 	background: url(../img/bg/home-back-1.jpg);
 	background-position: inherit;
 	padding: 60px 0;
 	color: #fff;
 }
-.property-highlights .title-hl {
+.project-highlights .title-hl {
 	font-size: 42px;
 	margin-bottom: 26px;
 }
-.property-highlights .content-hl {
+.project-highlights .content-hl {
 	margin-bottom: 10px;
 }
-.property-highlights .btn {
+.project-highlights .btn {
 	margin-top: 20px;
 }
 .features-box {
@@ -1588,7 +1588,7 @@ select > opation:focus {
 #latest-property .item {
 	margin: 10px;
 }
-#latest-property .property-main {
+#latest-property .project-main {
 	margin-bottom: 0;
 }
 #latest-property .owl-controls .owl-buttons {
@@ -2114,35 +2114,35 @@ footer a {
 	border-radius: 4px;
 	margin-right: 10px;
 }
-.property-head {
+.project-head {
 	display: inline-block;
 	margin-bottom: 30px;
 	width: 100%;
 }
-.property-head .title-property {
+.project-head .title-property {
 	font-size: 30px;
 	font-weight: 400;
 }
-.property-head p {
+.project-head p {
 	color: #999;
 }
-.property-head .price-detail {
+.project-head .price-detail {
 	font-size: 30px;
 	line-height: 50px;
 	color: #4caf50;
 }
-.property-head .web-refernce strong {
+.project-head .web-refernce strong {
 	font-size: 22px;
 	color: #4caf50;
 }
-.property-head .icon {
+.project-head .icon {
 	text-align: center;
 }
-.property-head .icon a {
+.project-head .icon a {
 	margin-right: 20px;
 	display: inline-block;
 }
-.property-head .icon a i {
+.project-head .icon a i {
 	width: 42px;
 	height: 36px;
 	font-size: 22px;
@@ -2160,26 +2160,26 @@ footer a {
 	border: #ddd solid 1px;
 	padding: 15px;
 }
-.property-meta {
+.project-meta {
 	background: #f6f6f6;
 	display: inline-block;
 	width: 100%;
 	padding: 0 15px;
 }
-.property-meta .meta-list {
+.project-meta .meta-list {
 	padding: 15px 0;
 }
-.property-meta .meta-list span {
+.project-meta .meta-list span {
 	padding: 15px 21px 15px 10px;
 	border-right: 1px solid #e4e4e4;
 }
-.property-meta .meta-list span i {
+.project-meta .meta-list span i {
 	margin-right: 5px;
 }
-.property-meta .date {
+.project-meta .date {
 	line-height: 50px;
 }
-.property-dsc p {
+.project-dsc p {
 	margin-bottom: 10px;
 }
 .additional-details li strong {
@@ -2853,22 +2853,22 @@ footer a {
 	display: inline-block;
 	width: 100%;
 }
-#sidebar .property-agent .agent-info .agent-name {
+#sidebar .project-agent .agent-info .agent-name {
 	font-size: 16px;
 	font-weight: 400;
 	padding: 20px 0;
 }
-#sidebar .property-agent .agent-info .contacts-list {
+#sidebar .project-agent .agent-info .contacts-list {
 	margin-bottom: 15px;
 }
-#sidebar .property-agent .agent-info .contacts-list li {
+#sidebar .project-agent .agent-info .contacts-list li {
 	padding: 5px 0;
 	border-bottom: 1px solid #eee;
 }
-#sidebar .property-agent .agent-info .contacts-list li i {
+#sidebar .project-agent .agent-info .contacts-list li i {
 	margin-right: 5px;
 }
-#sidebar .property-agent .agent-info p .btn-common {
+#sidebar .project-agent .agent-info p .btn-common {
 	margin-top: 15px;
 }
 #sidebar .cat-list li {
