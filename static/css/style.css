@@ -5,3 +5,9 @@
 .account-setting a:hover{
     color: #1d78cb;
 }
+.address li{
+    color: #fff;
+}
+.address li i{
+    padding-right: 5px;
+}
